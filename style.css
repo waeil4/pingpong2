@@ -1,0 +1,72 @@
+#field{
+    background-color: rgb(161, 205, 234);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#ball{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    height: 5%;
+    width: 2.5%;
+    background-color: rgb(59, 14, 82);
+    border-radius:60% ;
+    border-color: aqua;
+    z-index: 999;
+}
+#barr_p1{
+    position: absolute;
+    left: 5%;
+    top:40%;
+    height: 20%;
+    width: 0.9%;
+    background-color: rgb(59, 14, 82);
+    border-radius: 30%;
+}
+#barr_p2{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    height: 20%;
+    width: 0.9%;
+    background-color: rgb(59, 14, 82);
+    border-radius: 30%;
+}
+#up_barr1{
+    display: none;
+}
+#down_barr1{
+    display: none;
+}
+#up_barr2{
+    display: none;
+}
+#down_barr2{
+    display: none;
+}
+#line{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    height: 90%;
+    width: 1%;
+    background-color:bisque;
+}
+#score{
+    position: absolute;
+    left: 48.5%;
+    color: bisque;
+}
+#score_p1{
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    color: bisque;
+}
+#score_p2{
+    position: absolute;
+    right: 35%;
+    top: 5%;
+    color: bisque;
+}
